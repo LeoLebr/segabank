@@ -20,10 +20,10 @@ public class CompteEpargne extends Compte {
 
     @Override
     public String toString() {
-        return "CompteEpargne{" +
-                "id=" + getId() +
-                ", solde=" + getSolde() +
-                ", tauxInter=" + tauxInter +
+        return "CompteEpargne {" +
+                "Identifiant = " + getId() +
+                ", Solde compte = " + getSolde() +
+                ", Taux d'intérêt = " + tauxInter +
                 '}';
     }
 

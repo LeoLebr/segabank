@@ -20,10 +20,10 @@ public class Agence {
 
     @Override
     public String toString() {
-        return "Agence{" +
-                "id=" + id +
-                ", code='" + code + '\'' +
-                ", adresse='" + adresse + '\'' +
+        return "Agence {" +
+                "Identifiant = " + id +
+                ", Code d'Agence = '" + code + '\'' +
+                ", Adresse = '" + adresse + '\'' +
                 '}';
     }
 

@@ -28,10 +28,10 @@ public class CompteSimple extends Compte {
 
     @Override
     public String toString() {
-        return "CompteSimple{" +
-                "id=" + getId() +
-                ", solde=" + getSolde() +
-                ", unDecouvert=" + unDecouvert +
+        return "CompteSimple {" +
+                "Identifiant = " + getId() +
+                ", Solde = " + getSolde() +
+                ", Montant découvert = " + unDecouvert +
                 '}';
     }
 
