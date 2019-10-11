@@ -2,17 +2,21 @@ package entity;
 
 public class Compte {
     private int idCompte;
-    private int solde;
+    private double solde;
     private String typeOperation;
-    private int montantOperation;
+    private double montantOperation;
 
-    public Compte(int idCompte, int solde, String typeOperation, int montantOperation) {
+    //Premier constructeur
+    public Compte(int idCompte, double solde, String typeOperation, double montantOperation) {
         this.idCompte = idCompte;
         this.solde = solde;
         this.typeOperation = typeOperation;
         this.montantOperation = montantOperation;
     }
 
+    //Constructeur par défaut
+    public Compte() {
+    }
 
     public int getIdCompte() {
         return idCompte;
@@ -22,11 +26,11 @@ public class Compte {
         this.idCompte = idCompte;
     }
 
-    public int getSolde() {
+    public double getSolde() {
         return solde;
     }
 
-    public void setSolde(int solde) {
+    public void setSolde(double solde) {
         this.solde = solde;
     }
 
@@ -38,11 +42,11 @@ public class Compte {
         this.typeOperation = typeOperation;
     }
 
-    public int getMontantOperation() {
+    public double getMontantOperation() {
         return montantOperation;
     }
 
-    public void setMontantOperation(int montantOperation) {
+    public void setMontantOperation(double montantOperation) {
         this.montantOperation = montantOperation;
     }
 
