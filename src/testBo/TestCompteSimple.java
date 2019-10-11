@@ -10,7 +10,7 @@ public class TestCompteSimple {
 
         System.out.println("---------------------------");
         System.out.printf("%nTU -- Création d'un compte simple%n");
-        cptSi = new CompteSimple(200.00f, 400f, 1);
+        cptSi = new CompteSimple(1400.00f, 400f, 1);
         System.out.println(cptSi.toString());
         System.out.println("---------------------------");
 
@@ -20,15 +20,15 @@ public class TestCompteSimple {
         System.out.println("Solde après versement : " + cptSi.getSolde() + "€");
         System.out.println("---------------------------");
 
-        System.out.printf("%nTU -- Retrait d'un montant 50.00€ sur le compte simple%n");
+        System.out.printf("%nTU -- Retrait d'un montant 500.00€ sur le compte simple%n");
         System.out.println("Solde avant retrait : " + cptSi.getSolde() + "€");
-        cptSi.retrait(50.00f);
+        cptSi.retrait(500.00f);
         System.out.println("Solde après retrait : " + cptSi.getSolde() + "€");
         System.out.println("---------------------------");
 
-        System.out.printf("%nTU -- Retrait d'un montant de 100€ sur le compte simple -> A découvert%n");
+        System.out.printf("%nTU -- Retrait d'un montant de 1700€ sur le compte simple -> A découvert%n");
         System.out.println("Solde avant retrait découvert : " + cptSi.getSolde() + "€");
-        cptSi.retrait(100.00f);
+        cptSi.retrait(1700.00f);
         System.out.println("Solde après retrait : " + cptSi.getSolde() + "€");
         System.out.println("---------------------------");
 
